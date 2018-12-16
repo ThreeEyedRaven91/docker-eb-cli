@@ -10,4 +10,3 @@ RUN pip install awsebcli --upgrade --user
 ENV PATH="~/.local/bin:${PATH}"
 RUN eb --version
 COPY profile.sh /root/bin/
-RUN ls /root/bin/
