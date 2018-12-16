@@ -1,6 +1,6 @@
 #!/bin/sh
 
-mkdir -d /root/.aws
+mkdir -p /root/.aws
 FILE="/root/.aws/credentials"
 
 /bin/cat <<EOM >$FILE
