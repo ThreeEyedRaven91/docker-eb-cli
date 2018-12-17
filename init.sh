@@ -1,7 +1,7 @@
 #!/bin/sh
 
 mkdir -p .elasticbeanstalk
-bin/cat <<EOM > .elasticbeanstalk/config.yml
+/bin/cat <<EOM > .elasticbeanstalk/config.yml
 branch-defaults:
   develop:
     environment: $1
